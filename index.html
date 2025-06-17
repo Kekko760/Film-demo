@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Consigliati</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/PhotoIcon.png" type="favicon.ico">
+    
+</head>
+<body>
+    <header>
+        <h1>🎬 Film da Vedere Assolutamente</h1>
+        <p>Scopri una selezione di film imperdibili, tra vincitori di Oscar, capolavori visivi e titoli che generano hype.</p>
+        <nav>
+            <button onclick="filter('all')">Tutti</button>
+            <button onclick="filter('upcoming')">In Uscita</button>
+            <button onclick="filter('oscar')">Vincitori Oscar</button>
+            <button onclick="filter('directors')"> Film dei Registri</button>
+            <button onclick="filter('hype')">Da Vedere Assolutamente</button>
+       </nav>
+    </header>    
+
+<main id="film-list">
+    <section id="film-grid" class="grid"></section>
+     <!-- I film verranno generati da JavaScript-->
+</main>
+
+<footer>
+    <p>Creato con 💡 HTML, CSS e JavaScript. Tutti i diritti riservati.</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
